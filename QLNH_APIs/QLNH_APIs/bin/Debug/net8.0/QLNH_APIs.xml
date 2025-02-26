@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QLNH_APIs</name>
+    </assembly>
+    <members>
+        <member name="M:QLNH_APIs.Controllers.RoleController.Get">
+            <summary>
+            Lấy danh sách tất cả các role
+            </summary>
+            <returns> Danh sách role</returns>
+        </member>
+        <member name="M:QLNH_APIs.Controllers.RoleController.Get(System.Int32)">
+            <summary>
+            Lấy role theo ID
+            </summary>
+            <param name="Id"></param>
+            <returns>Trả về role tương ứng với id</returns>
+        </member>
+        <member name="M:QLNH_APIs.Controllers.RoleController.Post(QLNH_APIs.Models.Role)">
+            <summary>
+            Thêm role mới
+            </summary>
+            <param name="role"></param>
+            <returns>Role</returns>
+        </member>
+        <member name="T:QLNH_APIs.Migrations.DBInt">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.DBInt.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.DBInt.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.DBInt.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:QLNH_APIs.Migrations.AddItemTable">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddItemTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddItemTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddItemTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:QLNH_APIs.Migrations.AddCategoryTable">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddCategoryTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddCategoryTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddCategoryTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:QLNH_APIs.Migrations.AddMoreModel">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddMoreModel.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddMoreModel.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QLNH_APIs.Migrations.AddMoreModel.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
